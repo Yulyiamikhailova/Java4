@@ -1,9 +1,6 @@
-import org.junit.jupiter.api.Assertions;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BonusServiceTest {
-
     @org.junit.jupiter.api.Test
     public void shouldCalculateSmallAmountForRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
